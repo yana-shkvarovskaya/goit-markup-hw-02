@@ -46,7 +46,7 @@ ul {
   line-height: 1.2;
   text-decoration: none;
 }
-.part-web-logo {
+.logo .accent {
   color: var(--accent-color);
 }
 
@@ -159,7 +159,7 @@ ul {
   line-height: 1.19;
   text-decoration: none;
 }
-.footer .part-web-logo {
+.footer .accent {
   color: var(--accent-color);
 }
 
