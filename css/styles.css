@@ -24,16 +24,16 @@
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
+
 ul {
   list-style: none;
 }
 .section-title {
   color: var(--title-text-color);
 
-  font-family: Roboto;
-  font-weight: 700;
+  
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
 }
 
@@ -100,6 +100,7 @@ ul {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 
   font-family: inherit;
   font-weight: 700;
@@ -109,13 +110,13 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
 }
 
 /* Features */
 .features .title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -135,7 +136,7 @@ ul {
 }
 .team .title {
   color: var(--title-text-color);
-  
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -154,7 +155,6 @@ ul {
   color: var(--primary-white-color);
 
   font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
@@ -165,9 +165,8 @@ ul {
 
 address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 }
 .adress .postal {
   color: var(--primary-white-color);
@@ -181,11 +180,23 @@ address {
   text-decoration: none;
 }
 
+.adress .email:hover,
+.adress .email:focus {
+    color: var(--accent-color)
+}
+
+.adress .tel:hover,
+.adress .tel:focus {
+    color: var(--accent-color)
+}
+
+
 /* Стили для portfolio.html */
 
 .fields .button {
   color: var(--title-text-color);
   background-color: var(--secondary-bcg-color);
+  cursor: pointer;
 
   font-family: inherit;
   font-weight: 500;
@@ -204,7 +215,6 @@ address {
 .project-list .title {
   color: var(--title-text-color);
 
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -214,5 +224,5 @@ address {
   color: var(--primary-text-color);
 
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
 }
